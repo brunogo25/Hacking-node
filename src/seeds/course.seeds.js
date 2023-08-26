@@ -4,25 +4,25 @@ const Class = require("../api/models/class.models");
 
 const courseArray = [
     {
-      name: "Pilates",
+      name: "DeepWeb",
+      duration: "180 min",
+      class:  1,
+      type: "medium surface",
+      img: "https://i0.wp.com/derechodelared.com/wp-content/uploads/2015/01/deepweb2.jpg?resize=592%2C379&ssl=1"
+    },
+    {
+      name: "DarkWeb",
+      duration: "500 min",
+      class:  2,
+      type: "deep surface", 
+      img: "https://www.kaspersky.es/content/es-es/images/repository/isc/2020/deep-web-cover.jpg"
+    },
+    {
+      name: "HackerX",
       duration: "120 min",
-      class:  33,
-      type: "strength training",
-      img: "https://beyogabcn.com/wp-content/uploads/2017/05/que-es-pilates-.jpg"
-    },
-    {
-      name: "Box",
-      duration: "45 min",
-      class:  22,
-      type: "power training", 
-      img: "https://www.fundeu.es/wp-content/uploads/2021/05/boxeo-efespthirteen411921.jpg"
-    },
-    {
-      name: "natacion",
-      duration: "90 min",
-      class:  18,
-      type: "all-oaround activity",
-      img: "https://img2.rtve.es/i/?w=1600&i=1659088822807.jpg"
+      class:  3,
+      type: "ethical hacking",
+      img: "https://www.commonsense.org/sites/default/files/styles/ratio_1_1_medium/public/jpeg/2022-08/hackerx_1.jpeg?itok=608-rZBM"
     }
   ];
 
